@@ -10,6 +10,10 @@ import { rgba } from "color2k";
 
 export const metadata = { ...siteMetadata };
 
+export const viewport: Viewport = {
+    themeColor: '#DAD9FF',
+};
+
 const interFont = InterFont({
   subsets: ["latin"], display: "swap"
 });
