@@ -6,7 +6,7 @@ import NavigationEvents from "./navigation-events";
 import Loading from "./loading";
 import GoogleAnalytics from "@/libs/googleanalytics";
 import { Providers } from "./providers";
-import { rgba } from "color2k";
+import type { Viewport } from 'next'
 
 export const metadata = { ...siteMetadata };
 
