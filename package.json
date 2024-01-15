@@ -14,8 +14,8 @@
         "build-storybook": "storybook build"
     },
     "dependencies": {
-        "@nextui-org/react": "^2.1.13",
-        "framer-motion": "^10.16.4",
+        "@nextui-org/react": "^2.2.9",
+        "framer-motion": "^10.18.0",
         "next": "^14.0.4",
         "react": "18.2.0",
         "react-dom": "18.2.0"
