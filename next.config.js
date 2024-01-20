@@ -1,5 +1,3 @@
-/** @type {import("next").NextConfig} */
-
 const withPWA = require("@ducanh2912/next-pwa").default({
     dest: "public",
     cacheOnFrontEndNav: true,
@@ -12,6 +10,8 @@ const withPWA = require("@ducanh2912/next-pwa").default({
     },
     // ... other options you like
 });
+
+/** @type {import("next").NextConfig} */
 
 const nextConfig = {
     images: {
