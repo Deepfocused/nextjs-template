@@ -7,9 +7,9 @@ import Loading from "./loading";
 import GoogleAnalytics from "@/libs/googleanalytics";
 import { Providers } from "./providers";
 import type { Viewport } from 'next'
+import type { Metadata } from 'next';
 
-export const metadata = { ...siteMetadata };
-
+export const metadata: Metadata = { ...siteMetadata };
 export const viewport: Viewport = {
     themeColor: '#DAD9FF',
 };

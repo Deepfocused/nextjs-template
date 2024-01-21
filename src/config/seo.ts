@@ -1,17 +1,17 @@
 import { siteConfig } from '@/config/site';
 
 export const siteMetadata = {
-    metadataBase: new URL('https://deepfocuser.vercel.app'),
-    title: 'DeepFocuser',
+    metadataBase: new URL('https://notYet.vercel.app'),
+    title: 'Deepfocused Template',
     description: siteConfig.description,
     keywords: [],
     authors: [
         {
-            name: 'DeepFocuser',
-            url: 'https://github.com/DeepFocuser',
+            name: 'Deepfocused',
+            url: 'https://github.com/Deepfocused',
         },
     ],
-    creator: 'DeepFocuser',
+    creator: 'Deepfocused',
     openGraph: {
         type: 'website',
         locale: 'ko_KR',
