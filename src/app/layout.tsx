@@ -11,6 +11,8 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = { ...siteMetadata };
 export const viewport: Viewport = {
+    width: 'device-width',
+    initialScale: 1,
     themeColor: '#DAD9FF',
 };
 
