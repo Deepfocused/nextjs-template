@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": ".",
     "start_url": "/",
-    "name": "Deepfocused Template",
-    "short_name": "Deepfocused Template",
-    "description": "A template page created by Deepfocused to get started easily when creating a nextjs app",
+    "name": "woongsik template",
+    "short_name": "woongsik template",
+    "description": "A template page created by woongsik to get started easily when creating a nextjs app",
     "icons": [
         {
             "src": "/icon-192x192.png",

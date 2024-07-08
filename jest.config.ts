@@ -1,21 +1,18 @@
-import nextJest from 'next/jest';
-import { defaults } from 'jest-config';
-import * as dotenv from 'dotenv';
-
-dotenv.config({ path: './.env' });
-
+import type { Config } from 'jest'
+import nextJest from 'next/jest.js'
+ 
 const createJestConfig = nextJest({
-    // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
-    dir: './',
-});
-
+  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+  dir: './',
+})
+ 
 // Add any custom config to be passed to Jest
-const customJestConfig = {
-    modulePaths: ['<rootDir>/src/'],
-    moduleDirectories: ['node_modules', '<rootDir>/'],
-    moduleFileExtensions: [...defaults.moduleFileExtensions, 'd.ts'],
-    testTimeout: 15000,
-};
-
+const config: Config = {
+  coverageProvider: 'v8',
+  testEnvironment: 'jsdom',
+  // Add more setup options before each test is run
+  // setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+}
+ 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
-module.exports = createJestConfig(customJestConfig);
+export default createJestConfig(config)

@@ -2,24 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/*::-webkit-scrollbar {*/
-/*    display: none;*/
-/*}*/
-
-/* 웹킷 브라우저용 스크롤바 스타일링 */
-::-webkit-scrollbar {
-    width: 5px; /* 가로 스크롤바 너비 0으로 설정 */
-    height: 5px; /* 스크롤바 높이 지정 (세로 스크롤바) */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-/* 스크롤바 트랙 스타일 */
-::-webkit-scrollbar-track {
-    background-color: transparent; /* 트랙 배경색 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
-/* 스크롤바 슬라이더 스타일 */
-::-webkit-scrollbar-thumb {
-    /*background-color: #747474;*/
-    background-image: linear-gradient(hotpink, lightpink); /* 슬라이더 배경색 */
-    border-radius: 5px; /* 슬라이더 모서리 둥글게 처리 */
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }

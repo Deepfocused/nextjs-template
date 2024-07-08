@@ -2,7 +2,7 @@ import { siteConfig } from '@/config/site';
 
 export const siteMetadata = {
     metadataBase: new URL('https://notYet.vercel.app'),
-    title: 'Deepfocused Template',
+    title: 'woongsik template',
     description: siteConfig.description,
     keywords: [],
     authors: [
@@ -81,4 +81,3 @@ export const siteMetadata = {
     },
     manifest: '/manifest.webmanifest',
 };
-
