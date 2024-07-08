@@ -1,4 +1,3 @@
-
 // @ts-check
 // https://nextjs.org/docs/app/api-reference/next-config-js
 
@@ -23,7 +22,7 @@ export default async (phase, { defaultConfig }) => {
      * @type {import('next').NextConfig}
      */
     const nextConfig = {
-      /* config options here */
-    }
+        /* config options here */
+    };
     return withPWA(nextConfig);
-  }
+};
