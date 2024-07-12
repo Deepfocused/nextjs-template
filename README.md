@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-System Requirements:
+System Requirements
 - Node.js 18.17 or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
