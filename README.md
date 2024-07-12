@@ -3,6 +3,11 @@
 - This template includes packages that are good to have when starting [Next.js](https://nextjs.org/).
 
 ## Getting Started
+
+System Requirements:
+- Node.js 18.17 or later.
+- macOS, Windows (including WSL), and Linux are supported.
+
 First, install the pacakge
 
 ```bash
