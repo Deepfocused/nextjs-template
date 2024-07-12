@@ -9,7 +9,7 @@ First, install the pacakge
 npm install
 ```
 
-second, run the development server:
+second, run the development server
 
 ```bash
 npm run dev
