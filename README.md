@@ -1,9 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-This template includes packages that are good to have when starting [Next.js](https://nextjs.org/).
+## Introduce
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- This template includes packages that are good to have when starting [Next.js](https://nextjs.org/).
 
 ## Getting Started
+First, install the pacakge
 
-First, run the development server:
+```bash
+npm install
+```
+
+second, run the development server:
 
 ```bash
 npm run dev
